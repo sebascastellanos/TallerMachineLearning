@@ -1,7 +1,6 @@
 from sklearn.model_selection import cross_val_score
 from prefect import task
-<<<<<<< HEAD
-=======
+
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 from sklearn.preprocessing import label_binarize
@@ -66,7 +65,6 @@ def plot_roc(model, X_test, y_test, model_name="Modelo"):
     plt.legend(loc='lower right')
     plt.grid(True)
     plt.show()
->>>>>>> 9231085c74a0fce3ba695f4d7e665562ad133cb9
 
 @task
 def cross_validate_model(model, X_train, y_train):
