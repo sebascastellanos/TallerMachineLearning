@@ -1,3 +1,5 @@
+'''
+
 # src/flow/answer_diabetes_flow.py
 # -*- coding: utf-8 -*-
 from prefect import flow
@@ -15,3 +17,4 @@ def answer_diabetes_flow(
         fairness_threshold=fairness_threshold,
         random_state=random_state,
     )
+'''

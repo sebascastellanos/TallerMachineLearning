@@ -1,3 +1,4 @@
+'''
 # src/tasks/qa_diabetes.py
 # -*- coding: utf-8 -*-
 from prefect import task
@@ -14,3 +15,4 @@ def answer_diabetes_questions(
         random_state=random_state,
         fairness_threshold=fairness_threshold,
     )
+    '''
