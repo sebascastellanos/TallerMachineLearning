@@ -4,7 +4,7 @@
 
 **Justificación:** Organización y corrección del workflow orientado al aprendizaje supervizado asimismo comparación de modelos con sus respectivas medidas de rendimiento.
 
-**Modo de Ejecución**
+**Modo de Ejecución Recomendable**
 - Anaconda Prompt "conda activate <nombre_ambiente>
 - Anaconda Prompt "cd <ruta_archivo>"
 - Aanaconda Prompt "python main.py"
